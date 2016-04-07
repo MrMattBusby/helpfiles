@@ -87,11 +87,14 @@ Still on same line
 > 1. list
 > 1. list
 >
-> > Now embedded (doesn't work in pandoc)
-> > Now embedded (doesn't work in pandoc)
-> > > Now more embedded (doesn't work in pandoc)
-> > > Now more embedded (doesn't work in pandoc)
-> > Now embedded (doesn't work in pandoc)
+> > Now embedded
+> > Now embedded
+> >
+> > > Now more embedded
+> > > Now more embedded
+> > >
+> > Now embedded
+> >
 >
 > End
 
