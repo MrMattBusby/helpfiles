@@ -89,9 +89,8 @@ Still on same line
 >
 > > Now embedded (doesn't work in pandoc)
 > > Now embedded (doesn't work in pandoc)
-> > > Now embedded (doesn't work in pandoc)
-> > > Now embedded (doesn't work in pandoc)
-> > Now embedded (doesn't work in pandoc)
+> > > Now more embedded (doesn't work in pandoc)
+> > > Now more embedded (doesn't work in pandoc)
 > > Now embedded (doesn't work in pandoc)
 >
 > End
@@ -110,6 +109,7 @@ Still on same line
 - Good
   + Doesn't work in pandoc.
   + Doesn't work in pandoc.
+    * 3rd indent
 - Good
   - Doesn't work in pandoc.
   - Doesn't work in pandoc.
@@ -135,7 +135,7 @@ Still on same line
 ####Links/References:
 
   [1]: ./template.markdown "Title goes here"
-  
+
   This [1]() links to open file just defined (hidden in html).
 
   [Link to 'reference link' above](#test)
@@ -146,6 +146,8 @@ Still on same line
 
 Long sentance not moved\
 to one line b/c of backslash. Only works in pandoc.
+
+Table also works in github:
 
 Col1|Col2|Col3
 ----|----|----
