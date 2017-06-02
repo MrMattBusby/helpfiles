@@ -2,6 +2,8 @@ This is _Italics_
 
 This is *AltItalics*
 
+>> This is a note
+
 This is __Bold__
 
 This is **Bold**
