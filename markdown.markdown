@@ -2,6 +2,7 @@ This is _Italics_
 
 This is *AltItalics*
 
+> This is a note
 >> This is a note
 
 This is __Bold__
@@ -44,11 +45,11 @@ to one line b/c of br html.
       This is 4 space codeblock
     This is 4 space codeblock
 
-#Header1
+# Header1
 
-##Header2
+## Header2
 
-###Header3
+### Header3
 
 #### Header4
 
