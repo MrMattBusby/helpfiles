@@ -38,6 +38,10 @@
 ### Committing, tagging
 - `git commit -m "message"` _locally_
 - `git tag -a <version> -m <message> <hash>` _readable version/desc_
+### Stash
+- `git stash save "message"` _store_
+- `git stash pop` _recall_
+- `git stash list` _list all, or `show` for changes_
 
 # Remote
 ### Pushing
