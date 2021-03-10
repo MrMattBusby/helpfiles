@@ -19,20 +19,25 @@
 > To checkout, your current branch must be committed/stashed
 - `git checkout <branch-name>`
 - `git checkout -b <branch-name>` _create and checkout_
-### Status
+### Status, info, etc.
 > Staged files are in **green** after an `add`
 - `git status`
+- `git remote -v` _view remote urls_
+- `git show <hash>` _deails of a remote commit (diff uses local)_
+- `git log -p -1 # etc.` _patch (same as above)_
 ### Add
 - `git add <file>`
 - `git add -A` _all_
-### Unstage
+### Unstage a commit
 - `git reset <file|hash>` _unstages without editing file_
 ### Reverting
 - `git revert <hash>` _created another commit, not deleting your prev_
 ### Diff
 - `git diff` _unstaged_
-- `git diff -staged`
+- `git diff --staged` _or cached_
 - `git diff <branch1> <branch2>`
+### Clean
+- `git clean -d` _-n for dry-run_
 ### Log
 - `git log` _-follow[file] to follow file renames_
 ### Committing, tagging
@@ -49,6 +54,6 @@
 > or
 - `git push -u origin <branch-name>`
 ### Pulling
-- `git pull <remote>` _combo of fetch and merge_
+- `git pull <remote-repo=origin> [<remote-branch>=master]` _combo of fetch and merge_
 
 
